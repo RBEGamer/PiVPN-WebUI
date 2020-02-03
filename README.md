@@ -38,7 +38,7 @@ In the setup dialog:
 * Clone this Repo to you Pi home folder `/home/pi`.
 * Make startupscript exeuatable `sudo chmod +x /home/pi/PiVPN-WebUI/startup_pivpnwebui.sh`
 * Use `crontab -e` and add `@reboot /home/pi/PiVPN-WebUI/startup_pivpnwebui.sh`
-
+* Run `npm install` in `/home/pi/PiVPN-WebUI/src/`
 
 ### SETUP SSH REVERSE TUNNEL
 Here you can setup an ssh tunnel to an remote server.
