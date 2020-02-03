@@ -1,5 +1,5 @@
 # PiVPN-WebUI
-A very fast written PiVPN Webui for adding/rewoke clients.
+A very fast written PiVPN Webui for adding/rewoke clients [OpenVPN].
 It also opens a ssh reverse tunnel to a remote server, so you can PiVPN behind a NAT.
 
 
@@ -18,7 +18,7 @@ The Webui also shows your public ssh key for ssh tunnel setup
 * RPI
 * A VPS SERVER FOR SSH TUNNEL (the 1$ ones)
 
-## SETUP [OpenVPN]
+## SETUP
 
 ### GENERAL SETUP
 * Setup a local hostname on the machine!
@@ -27,7 +27,8 @@ The Webui also shows your public ssh key for ssh tunnel setup
 
 * insert your `id_rsa.pub` to the `authorized_keys` file at you remote server 
 
-### SETUP PiVPN
+### SETUP PiVPN [OpenVPN]
+!!! YOU HAVE TO CHOOSE OPENVPN IF YOU WANT TO USE THE SSH TUNNEL !!!
 First you have to setup your PiVPN server.
 In the setup dialog:
 * Set your hostname at the public ip question
