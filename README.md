@@ -1,5 +1,7 @@
 # PiVPN-WebUI
 A very fast written PiVPN Webui for adding/rewoke clients.
+It also opens a ssh reverse tunnel to a remote server, so you can PiVPN behind a NAT.
+
 
 # !!! USE WITH CAUTION !!!
 This was an one hour project only for easy client management!
@@ -12,7 +14,9 @@ The Webui also shows your public ssh key for ssh tunnel setup
 * ACTIVE CLIENT OVERVIEW
 * AUTOMATIC SSH TUNNEL SETUP FOR USAGE BEHIND A NAT
 
-
+# PARTS NEEDED
+* RPI
+* A VPS SERVER FOR SSH TUNNEL (the 1$ ones)
 
 ## SETUP [OpenVPN]
 
