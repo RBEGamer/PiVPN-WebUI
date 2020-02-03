@@ -18,8 +18,10 @@ The Webui also shows your public ssh key for ssh tunnel setup
 
 ### GENERAL SETUP
 * Setup a local hostname on the machine!
-* Enable iptables!
+* Enable iptables! `sudo mkdir /etc/iptables`
 * generate ssh keys if not done : `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+
+* insert your `id_rsa.pub` to the `authorized_keys` file at you remote server 
 
 ### SETUP PiVPN
 First you have to setup your PiVPN server.
@@ -34,6 +36,9 @@ In the setup dialog:
 
 
 ### SETUP SSH REVERSE TUNNEL
+Here you can setup an ssh tunnel to an remote server.
+You can disable the tunnel in the `config file`
+
 * modifiy the config file to setup the ssh tunnel (`/home/pi/PiVPN-WebUI/src/config.json`)
 
 
