@@ -1,0 +1,17 @@
+{
+    "webserver_default_port":3000,
+    "app_name":"PIVPN - WEBUI",
+
+
+    "pivpn_ovpns_dir":"/home/pi/ovpns",
+    "pivpn_ovpn_local_port":443,
+    "pivpn_ovpn_remote_tunnel_port":5123,
+    "pivpn_remote_tunnel_server_ip":"3.124.85.208",
+    "pivpn_remote_server_hostname": "the-ranch-adventure.com",
+    "pivpn_remote_tunnel_server_ssh_user":"ubuntu",
+    "ssh_public_key":"/home/pi/.ssh/id_rsa.pub",
+    "activate_ssh_tunnel":true
+}
+
+
+
