@@ -23,11 +23,10 @@ First you have to setup your PiVPN server.
 In the setup dialog:
 * Set your hostname at the public ip question
 
-Install NodeJS >10 on your Pi
-
-
-Clone this Repo to you Pi home folder (`/home/pi`).
-Use `crontab -e` and add `@reboot /home/pi/PiVPN-WebUI/startup_pivpnwebui.sh`
+* Install `NodeJS >10` on your Pi
+* Clone this Repo to you Pi home folder `/home/pi`.
+* Make startupscript exeuatable `sudo chmod +x /home/pi/PiVPN-WebUI/startup_pivpnwebui.sh`
+* Use `crontab -e` and add `@reboot /home/pi/PiVPN-WebUI/startup_pivpnwebui.sh`
 
 
 
