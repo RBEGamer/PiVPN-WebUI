@@ -31,6 +31,7 @@ The Webui also shows your public ssh key for ssh tunnel setup
 First you have to setup your PiVPN server.
 In the setup dialog:
 * Set your hostname at the public ip question
+* After reboot run `pivpn -d` to check everything / add ip tables
 
 ### SETUP WEBUI
 * Install `NodeJS >10` on your Pi
@@ -45,6 +46,7 @@ You can disable the tunnel in the `config file`
 
 * modifiy the config file to setup the ssh tunnel (`/home/pi/PiVPN-WebUI/src/config.json`)
 
+* !! -> insert the remote server ip `pivpn_remote_tunnel_server_ip` !!
 
 # IMAGES
 ![Gopher image](/pivpnwebui.png)
