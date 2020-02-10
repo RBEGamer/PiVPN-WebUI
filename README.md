@@ -49,5 +49,11 @@ You can disable the tunnel in the `config file`
 
 * !! -> insert the remote server ip `pivpn_remote_tunnel_server_ip` !!
 
+
+## USAGE
+Goto `<RPI_IP>:3000` to visit the Webinterface. There you can ADD a new profile and download them to import into you `OpenVPN Client`
+
+### NOTE
+In you OpenVPN Client, set the Tunnel-Protocol to `TCP` ! The ssh tunnel doesnt support UDP!
 # IMAGES
 ![Gopher image](/pivpnwebui.png)
