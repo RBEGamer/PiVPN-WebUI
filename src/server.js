@@ -268,7 +268,9 @@ app.get('/rest/download_ovpn_config/:id', function (req, res) {
                 break;
             }
         }
-
+        //ADD BYPASS DHCP def1 is important
+        modified_config_file += "\n";
+        modified_config_file += 'push "redirect-gateway def1 bypass-dhcp"';
 
         fs.writeFile(config.pivpn_ovpns_dir + "/" + String(config_ovpn_file) + "_modified.ovpn", modified_config_file, function (err) {
             if (err) {
