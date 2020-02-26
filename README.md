@@ -57,3 +57,11 @@ Goto `<RPI_IP>:3000` to visit the Webinterface. There you can ADD a new profile 
 In you OpenVPN Client, set the Tunnel-Protocol to `TCP` ! The ssh tunnel doesnt support UDP!
 # IMAGES
 ![Gopher image](/pivpnwebui.png)
+
+
+
+## FINAL SERVER SETUP USING A RPI 3B+ AND 12V BATTERIES AS USV BACKUP
+## THE DISPLAYS SHOWS A FEW SETTINGS FROM THE pivpnwebui API
+![Gopher image](/documentation/2020-02-23 19.12.22.jpg)
+![Gopher image](/documentation/2020-02-23 19.10.11.jpg)
+![Gopher image](/documentation/2020-02-23 19.10.08.jpg)
