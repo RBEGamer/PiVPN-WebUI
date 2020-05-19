@@ -68,5 +68,4 @@ In you OpenVPN Client, set the Tunnel-Protocol to `TCP` ! The ssh tunnel doesnt 
 
 ![Gopher image](/documentation/inner.jpg)
 
-
 ![Gopher image](/documentation/2020-04-04 20.28.53.png)
