@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "autossh": "^0.2.0",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "chalk": "^2.4.2",
     "ejs": "^2.7.1",
